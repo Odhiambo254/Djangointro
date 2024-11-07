@@ -1,0 +1,23 @@
+{% load  static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>introduction</title>
+</head>
+<body>
+
+<img src="{% static 'images/fresh.jpeg' %}" alt="">
+<a href="{% url 'about' %}"  class= 'about-button' target="_blank">about</a>
+<a href="{% url 'contact' %}">contact us</a>
+<a href="{% url 'services' %}">services</a>
+<h1>my introduction to django page</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam at dolor dolorem ex, hic iste iusto nisi quos vitae. Eos, quae, repellat.
+    Beatae cumque doloribus iste laborum qui vitae.</p>
+</body>
+</html>
